@@ -1,19 +1,24 @@
 import React from "react"
-import { API_URL } from "../constants/env"
+import { API_URL } from "../../constants/env"
 
 
 
 
 
-function App() {
+
+function Home() {
   
 
   return (
+    <>
+
     <div>
       <h1>My App Mierda {API_URL} </h1>
       <p>Tio mirate Vercel</p>
     </div>
+   
+   </>
   )
 }
 
-export default App
+export default Home
