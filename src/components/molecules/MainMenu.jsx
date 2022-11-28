@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const MainMenu = () => {
     return (
-        <div>
-            <ul>
+        <div className='px-4 py-2 text-white'>
+            <ul className='flex gap-4'>
                 <li>
                     <Link to="/">
                         Inicio

@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
 
-    <div>
+    <div className="  ">
       <h1>My App Mierda {API_URL} </h1>
       <p>Tio mirate Vercel</p>
     </div>

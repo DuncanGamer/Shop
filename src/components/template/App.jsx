@@ -7,8 +7,9 @@ const App = () => {
     return (
         <div>
             <MainHeader />
-
+            <div className=' container mx-auto pt-16 '>
             <Outlet />
+            </div>
         </div>
     )
 }
