@@ -15,6 +15,11 @@ const MainMenu = () => {
                         Products
                     </Link>
                 </li>
+                <li>
+                    <Link to="/login">
+                        Login
+                    </Link>
+                </li>
                 
 
             </ul>
